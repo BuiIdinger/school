@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+@media only screen and (max-width: 833px) {
+
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --font: Arial, Helvetica, sans-serif;
+    --hw-height: 1193px;
+    --copy-offset-y: -230px;
+    --color: black;
+    --color-hover: #007AFF;
+
+    --button-background-color: #007AFF;
+    --button-background-color-hover: #1e8afe;
+
+    --button-font-color: white;
+
+    --module-background-color: #fff;
+}
+
+html {
+    line-height: 1.15;
+    font-family: var(--font);
+    color: var(--color);
+    font-size: 1rem;
+    font-synthesis: none;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,hgroup,p,blockquote,figure,form,fieldset,input,legend,pre,abbr,button {
+    margin: 0;
+    padding: 0
+}
+
+div {
+    display: block;
+}
+
+.treaty-of-waitangi-overview {
+    padding-top: 2rem;
+}
+
+.treaty-of-waitangi-title {
+    font-size: 3rem;
+}
+
+.treaty-of-waitangi-title-container {
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    width: 87.5vw;
+    max-width: 1680px;
+    padding-bottom: 3rem;
+}

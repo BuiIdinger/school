@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --font: Helvetica, system-ui;
+    --hw-height: 1193px;
+    --copy-offset-y: -230px;
+    --color: black;
+    --color-hover: #007AFF;
+
+    --button-background-color: #007AFF;
+    --button-background-color-hover: #278fff;
+
+    --button-color: white;
+    --button-color-border: #007AFF;
+
+    --module-height: 35rem;
+    --module-gutter: 14px;
+
+    --module-light-background-color: #fff;
+    --module-dark-background-color: #050505;
+    --module-mls-color: #ffffff;
+    --module-mls-color: #ffffff;
+
+}
+
+html {
+    line-height: 1.15;
+    font-family: var(--font);
+    color: var(--color);
+    font-size: 1rem;
+    font-synthesis: none;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    position: relative;
+}
+
+ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,hgroup,p,blockquote,figure,form,fieldset,input,legend,pre,abbr,button {
+    margin: 0;
+    padding: 0
+}
+
+div {
+    display: block;
+}

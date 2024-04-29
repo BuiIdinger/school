@@ -1,0 +1,89 @@
+:root {
+    --f-header-color: #000000;
+    --f-header-color-hover: #007AFF;
+    --f-header-background-color: #f7f7f7f6;
+
+    --f-footer-text-color: rgba(0, 0, 0, 0.56);
+    --f-footer-border-color: rgba(0, 0, 0, 0.16);
+    --f-footer-color: rgba(0, 0, 0, 0.88);;
+    --f-footer-color-hover: #007AFF;
+    --f-footer-background-color: rgb(245, 245, 247);;
+    --f-text-font-family: "SF Pro Display", Arial, sans-serif;
+    --c-color: #007AFF;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#globalfooter {
+    background-color: var(--f-footer-background-color);
+    padding-top: 1rem;
+    color: var(--f-footer-color);
+    padding-bottom: 3rem;
+    direction: ltr;
+    flex-basis: 25%;
+}
+
+#globalfooter-content {
+    padding-inline-start: max(22px);
+    padding-inline-end: max(22px);
+    margin: 0 auto;
+    max-width: 980px;
+    padding: 0 22px;
+    float: inherit;
+    font-size: 1em;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    text-align: inherit;
+}
+
+.globalfooter-note {
+    padding-bottom: 1rem;
+    color: var(--f-footer-text-color);
+    border-bottom: 1px solid var(--f-footer-border-color);
+}
+
+.globalfooter-nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 20px;
+}
+
+.globalfooter-column-title {
+    padding-top: 0.9rem;
+    font-size: 1rem;
+}
+
+.globalfooter-column {
+    flex-basis: 25%;
+    display: block;
+    flex-wrap: nowrap;
+    float: inherit;
+    font-size: 1em;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    text-align: inherit;
+}
+
+.globalfooter-column-item {
+    padding-top: 0.5rem;
+    display: block;
+}
+
+.globalfooter-column-item a {
+    text-decoration: none;
+    color: var(--f-footer-text-color);
+}
+
+
+.globalfooter-column-item:hover a {
+    cursor: pointer;
+    text-decoration: underline;
+}

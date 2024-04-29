@@ -1,0 +1,10 @@
+User-agent: *
+
+Disallow: /bc/*
+Disallow: /bc/globalfooter/*
+Disallow: /bc/globalheader/*
+Disallow: /bc/jquery/*
+
+Disallow: /v/*
+Disallow: /v/home/*
+Disallow: /treaty-of-waitangi/*
